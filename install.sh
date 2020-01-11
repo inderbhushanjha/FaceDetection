@@ -10,7 +10,7 @@ else
 	apt install libxvidcore-dev libx264-dev -y
 	apt install libatlas-base-dev gfortran -y
 	apt install install python2.7-dev python3-dev -y
-	pip install opencv-python
+	
 	cd ~
 	cv="https://github.com/Itseez/opencv/archive/$ver.zip"
 	echo $cv
@@ -33,6 +33,7 @@ else
 	    -D BUILD_EXAMPLES=ON ..
 	make -j4
 	make install
+	pip install opencv-python
 fi
 echo -e "\e[44m\e[5mThank You for Using this tool for more tools and tricks visit http://github.com/inderbhushanjha...\e[0m"
 
