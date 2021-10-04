@@ -2,10 +2,13 @@
 simple face detection in python using OpenCV
 
 
-Requirements 
+# Requirements 
+`
 python3
 openCV
+`
 
-
-Install opencv using this command:
+# Install opencv using this command:
+`
 pip install opencv-python
+`
